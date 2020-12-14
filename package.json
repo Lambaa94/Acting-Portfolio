@@ -1,0 +1,23 @@
+{
+  "name": "acting-portfolio",
+  "version": "1.0.0",
+  "description": "An acting site temp",
+  "main": "server.js",
+  "dependencies": {
+    "react-bootstrap": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambaa94/Acting-Portfolio.git"
+  },
+  "author": "James Lamb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lambaa94/Acting-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Lambaa94/Acting-Portfolio#readme"
+}
