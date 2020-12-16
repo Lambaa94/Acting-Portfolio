@@ -1,9 +1,12 @@
 import React from "react";
 
 function Home() {
-    return (
 
-     "HEY"
+
+    return (
+<>
+    <h1>Hello World</h1>
+</>
     )
     
 }
