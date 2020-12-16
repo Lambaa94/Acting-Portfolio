@@ -4,10 +4,42 @@
   "description": "An acting site temp",
   "main": "server.js",
   "dependencies": {
-    "react-bootstrap": "^1.4.0"
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "if-env": "^1.0.4",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "mongoose": "^5.10.13",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-typeahead": "^5.1.2",
+    "react-live-clock": "^5.0.12",
+    "react-moment": "^1.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-toastify": "^6.1.0",
+    "yarn": "^1.22.10"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.4"
+  },
   "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js && node scripts/seedMenu.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
     "test": "npm test"
   },
   "repository": {
