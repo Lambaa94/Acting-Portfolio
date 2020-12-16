@@ -1,14 +1,19 @@
 import React from "react";
+import { Container } from "react-bootstrap";
+import Navtop from "../../components/Navbar/Navbar";
+
+
 
 function Home() {
 
 
     return (
 <>
-    <h1>Hello World</h1>
+<Navtop/>
+
 </>
     )
-    
+ 
 }
 
 export default Home;
