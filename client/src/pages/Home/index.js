@@ -1,18 +1,20 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import About from "../../components/About/About";
 import Navtop from "../../components/Navbar/Navbar";
 
 
 
 function Home() {
 
+return (
 
-    return (
 <>
-<Navtop/>
 
+<Navtop/>
+<About/>
 </>
-    )
+
+);
  
 }
 
