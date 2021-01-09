@@ -71,6 +71,14 @@ function About() {
     </Col>
    
 </Row>
+<Row>
+    <Col>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, in eius dolorum quidem autem praesentium tenetur eos necessitatibus consectetur libero iste quia totam natus fuga tempora rem ratione. Autem, molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, in eius dolorum quidem autem praesentium tenetur eos necessitatibus consectetur libero iste quia totam natus fuga tempora rem ratione. Autem, molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, in eius dolorum quidem autem praesentium tenetur eos necessitatibus consectetur libero iste quia totam natus fuga tempora rem ratione. Autem, molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, in eius dolorum quidem autem praesentium tenetur eos necessitatibus consectetur libero iste quia totam natus fuga tempora rem ratione. Autem, molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, in eius dolorum quidem autem praesentium tenetur eos necessitatibus consectetur libero iste quia totam natus fuga tempora rem ratione. Autem, molestiae!
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, in eius dolorum quidem autem praesentium tenetur eos necessitatibus consectetur libero iste quia totam natus fuga tempora rem ratione. Autem, molestiae!</p>    
+    </Col>
+
+</Row>
 </Container>
 </>
     )
