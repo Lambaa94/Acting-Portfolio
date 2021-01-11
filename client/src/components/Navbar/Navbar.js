@@ -1,35 +1,75 @@
-import React from 'react';
-import { Navbar, NavDropdown, Form, FormControl, Button, Nav, Row } from 'react-bootstrap';
+import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./Navbar.css";
 
-
-function Navtop() {
-
-
-
+function Navbar() {
+    
     return (
-        <>
-       
-            <Navbar bg="light" expand="lg" id="navTop">
-                <Navbar.Brand href="#home">Sample Dawg</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Anotha One</Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Anotha action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Somethin Else</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">okokok</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-            
-        </>
-    );
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top sticky-top">
+            <a className="navbar-brand">Your Name</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="fas fa-hamburger fa-2x"></span>
+            </button>
+            <div className="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link
+                        activeClass="active"
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >
+                        Skills
+                      </Link>
+                    
+                    </li>
+                    <li className="nav-item">
+                    <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                About Me
+              </Link>
+                    
+                    </li>
+                    <li className="nav-item">
+                    <Link
+                activeClass="active"
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Portfolio
+              </Link>
+                    
+                    </li>
+                    <li className="nav-item">
+                    <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Contact Me
+              </Link>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    )
 }
 
-export default Navtop;
+export default Navbar;  
