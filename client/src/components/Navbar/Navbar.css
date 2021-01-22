@@ -1,6 +1,8 @@
 .nav-item > .active {
     border-bottom: 1px solid #333;
     color: white;
+    text-decoration: none;
+    
 }
 .nav-item {
     color: white;
@@ -10,9 +12,13 @@
 .nav-item:hover {
     border-bottom: 1px solid whitesmoke;
     cursor: pointer;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
-#nameTitle {
-    text-align: center;
-    
+.nav-item > .active:hover {
+    border-bottom: 1px solid #333;
+    color: white;
+    text-decoration: none;
+    color: whitesmoke;
 }
