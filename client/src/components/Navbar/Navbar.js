@@ -1,15 +1,15 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link   } from "react-scroll";
 import "./Navbar.css";
 
 function Navbar() {
     
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top sticky-top">
-            <a className="navbar-brand">Your Name</a>
+            <a href="/" className="navbar-brand" id="nameTitle">Hannah Ryen</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="fas fa-hamburger fa-2x"></span>
+                <span className="">=</span>
             </button>
             <div className="collapse navbar-collapse nav justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
