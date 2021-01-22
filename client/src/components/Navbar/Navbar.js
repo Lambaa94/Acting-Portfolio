@@ -1,9 +1,11 @@
 import React from "react";
-import { Link   } from "react-scroll";
+import { Link, useLocation } from "react-router-dom";
+import { Navbar, Nav } from 'react-bootstrap';
 import "./Navbar.css";
 
-function Navbar() {
+function Navtop() {
     
+  const location = useLocation();
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top sticky-top">
             <a href="/" className="navbar-brand" id="nameTitle">Hannah Ryen</a>
@@ -12,64 +14,27 @@ function Navbar() {
                 <span className="">=</span>
             </button>
             <div className="collapse navbar-collapse nav justify-content-end" id="navbarNav">
-                <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <Link
-                        activeClass="active"
-                        to="skills"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                      >
-                        Skills
-                      </Link>
+                
+                    <Link className={location.pathname==="/" ? "mr-2 navbarLink active": "mr-2 navbarLink" } to="/">Home</Link>
                     
-                    </li>
-                    <li className="nav-item">
-                    <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                About Me
-              </Link>
                     
-                    </li>
-                    <li className="nav-item">
-                    <Link
-                activeClass="active"
-                to="portfolio"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Portfolio
-              </Link>
+                  
+                    <Link className={location.pathname==="/about" ? "mr-2 navbarLink active": "mr-2 navbarLink"} to="/about">About Me</Link>
                     
-                    </li>
-                    <li className="nav-item">
-                    <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Contact Me
-              </Link>
+                   
+                    <Link className={location.pathname==="/resume" ? "mr-2 navbarLink active": "mr-2 navbarLink"} to="/resume">Resume</Link>
+                    
+                   
+                    <Link className={location.pathname==="/reel" ? "mr-2 navbarLink active": "mr-2 navbarLink"} to="/reel">Reel</Link>
 
-                    </li>
-                </ul>
+                    
+                    <Link className={location.pathname==="/photos" ? "mr-2 navbarLink active": "mr-2 navbarLink"} to="/photos">Photos</Link>
+                    <Link className={location.pathname==="/contact" ? "mr-2 navbarLink active": "mr-2 navbarLink"} to="/contact">Contact Me</Link>
+            
             </div>
         </nav>
 
     )
 }
 
-export default Navbar;  
+export default Navtop;  
