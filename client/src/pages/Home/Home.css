@@ -3,3 +3,17 @@
     width: 400px;
     border-radius: 8px
 }
+
+#contactMe {
+   box-shadow: blue 5px 5px 0px 0px;
+   
+}
+
+#contactMe:hover {
+    box-shadow: blue 3px 3px 0px 0px;
+}
+
+#contactMe:active {
+    color: skyblue;
+    box-shadow: blue 1px 1px 0px 0px;
+}
