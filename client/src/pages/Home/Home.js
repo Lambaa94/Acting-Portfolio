@@ -17,6 +17,7 @@ function Home() {
 
                     </Col>
                     <Col>
+                    <Jumbotron id="homeJumbo">
                         <h3>Recent Roles</h3>
                         <hr />
                         <br />
@@ -30,6 +31,7 @@ function Home() {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste invenepudiandae deserunt illum, laudantium tempora delectus cupiditate error
                         <br />
                         <br />
+                       
                         <br /><Row>
                             <Col>
                                 <Button id="contactMe">Contact Me</Button>
@@ -39,7 +41,7 @@ function Home() {
                                 <span><i class="fab fa-3x fa-instagram"></i></span>{" "}<span><i class="fab fa-3x fa-youtube m-2"></i></span>{" "}<span><i class="fab fa-3x fa-twitter-square"></i></span>
                             </Col>
                         </Row>
-                    </Col>
+                    </Jumbotron></Col> 
                 </Row>
             </Container>
 
