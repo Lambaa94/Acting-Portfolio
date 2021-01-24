@@ -6,7 +6,8 @@
 
 #contactMe {
    box-shadow: blue 5px 5px 0px 0px;
-   
+   width: 200px;
+   height: 55px;
 }
 
 #contactMe:hover {
@@ -16,4 +17,21 @@
 #contactMe:active {
     color: skyblue;
     box-shadow: blue 1px 1px 0px 0px;
+}
+
+.fa-instagram:hover {
+cursor: pointer;
+color: #B9348F;
+border-radius: 7px;
+}
+
+.fa-youtube:hover {
+    cursor: pointer;
+    color: red;
+
+}
+
+.fa-twitter-square:hover {
+    cursor: pointer;
+    color: #1DA1F2
 }
