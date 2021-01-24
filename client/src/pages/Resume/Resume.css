@@ -1,0 +1,19 @@
+#resumePic {
+    height: 550px;
+    width: 400px;
+    border-radius: 8px
+}
+
+.fa-file-pdf {
+    text-align: center;
+    display: flex;
+    flex: auto;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+}
+
+.fa-file-pdf:hover {
+    color: skyblue;
+    cursor: pointer;
+}
