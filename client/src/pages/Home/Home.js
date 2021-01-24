@@ -17,9 +17,22 @@ function Home() {
 
                     </Col>
                     <Col>
-                        <Row>
+                        <h3>Recent Roles</h3>
+                        <hr/>
+                        <br/>
+                        Lorem ipsum dolordeserunt illum, laudantium tempora delectus cupiditate error.
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h3>Upcoming</h3>
+                        <hr/>
+                        <br/>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste invenepudiandae deserunt illum, laudantium tempora delectus cupiditate error 
+                        <br/>
+                        <br/>
+                        <br/>
                             <Button id="contactMe">Contact Me</Button>
-                        </Row>
+                        
                     </Col>
                 </Row>
             </Container>
