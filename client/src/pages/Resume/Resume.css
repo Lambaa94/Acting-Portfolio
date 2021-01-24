@@ -17,3 +17,9 @@
     color: skyblue;
     cursor: pointer;
 }
+
+#resumeJumbo {
+    height: 880px;
+    width: 600px;
+    border-radius: 8px
+}

@@ -14,6 +14,7 @@ function Resume() {
 <Image src="/images/img_4379.jpeg" alt="Hannah Ryen" id="resumePic"></Image>
 
 </Col>
+<Jumbotron id="resumeJumbo">
 <Col>
 
 <span ><i className="far fa-3x fa-file-pdf"></i></span>
@@ -137,6 +138,7 @@ function Resume() {
     </Col>
 </Row>
 </Col>
+</Jumbotron>
 
 </Row>
 
