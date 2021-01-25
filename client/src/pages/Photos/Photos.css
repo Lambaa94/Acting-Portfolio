@@ -1,0 +1,11 @@
+.photoTitle {
+    text-align: center;
+}
+
+.allPics {
+    height: 500px;
+    width: 380px;
+    border-radius: 8px;
+    margin: 8px;
+}
+

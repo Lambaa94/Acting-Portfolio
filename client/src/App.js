@@ -5,6 +5,9 @@ import Navtop from "../src/components/Navbar/Navbar";
 import About from "../src/pages/About/About";
 import Resume from "../src/pages/Resume/Resume";
 import Reel from "../src/pages/Reel/Reel";
+import Photos from "../src/pages/Photos/Photos";
+import Gallery from "../src/components/Gallery/Gallery";
+import Performance from "../src/components/Performance/Performance";
 
 
 function App() {
@@ -17,8 +20,9 @@ function App() {
     <Route exact path="/about" component={About} />
     <Route exact path="/resume" component={Resume}/>
     <Route exact path="/reel" component={Reel}/>
-     
-  
+    <Route exact path="/photos" component={Photos}/>
+    <Route exact path="/gallery" component={Gallery}/>
+    <Route exact path="/performance" component={Performance}/>
  </Router>
     </>
 
