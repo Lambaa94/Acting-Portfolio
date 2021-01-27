@@ -16,9 +16,30 @@
     color: whitesmoke;
 }
 
-.nav-item > .active:hover {
+.nav-item > .active {
     border-bottom: 1px solid #333;
     color: white;
     text-decoration: none;
     color: whitesmoke;
+}
+
+.active {
+    border-bottom: 1px gold;
+    color: gold;
+    text-decoration: none;
+}
+
+.active:hover {
+    border-bottom: 1px gold;
+    color: gold;
+    text-decoration: none;
+    
+}
+
+.navbar {
+    background-color: #315F48;
+}
+
+#nameTitle {
+    color: gold;
 }
