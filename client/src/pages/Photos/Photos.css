@@ -4,12 +4,16 @@
 
 .photosPics{
     height: 500px;
-    width: 380px;
+    width: 480px;
     border-radius: 8px;
     margin: 8px;
 }
 
 .photosPics:hover {
     opacity: 70%;
+
+    animation: pulse;
+    animation-duration: 1s; /* don't forget to set a duration! */
+    cursor: pointer;
 }
 
