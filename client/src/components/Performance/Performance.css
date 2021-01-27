@@ -4,3 +4,27 @@
     margin: 10px;
     border-radius: 14px;
 }
+
+.otherPageTwo {
+    float: right;
+    margin: 20px;
+    margin-right: 80px;
+    display: flex;
+    position: fixed;
+    color: #315F48
+    
+}
+
+.otherPageTwo:hover {
+ 
+
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    cursor: pointer;
+  }
+  
+  .otherPageTwo:active {
+      
+      color: #E5BD99;
+      /* background-color:#315F48; */
+  }

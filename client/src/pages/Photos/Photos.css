@@ -2,10 +2,14 @@
     text-align: center;
 }
 
-.allPics {
+.photosPics{
     height: 500px;
     width: 380px;
     border-radius: 8px;
     margin: 8px;
+}
+
+.photosPics:hover {
+    opacity: 70%;
 }
 

@@ -7,6 +7,9 @@ function Performance() {
 
     return(
 <>
+
+<Link to="/gallery">
+       <i class="fas fa-3x fa-arrow-circle-left otherPageTwo"></i></Link>
         <Container>
 <Row>
     <Col>

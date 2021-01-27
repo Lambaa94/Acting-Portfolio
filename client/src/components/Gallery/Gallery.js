@@ -10,7 +10,13 @@ function Gallery() {
     return (
 
         <>
-        <Container>
+       
+        
+      <Link to="/performance">
+       <i class="fas fa-3x fa-arrow-circle-right otherPage"></i></Link>
+ 
+      
+      <Container>
             <Row>
 <Col>
 
