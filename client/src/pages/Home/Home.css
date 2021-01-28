@@ -1,12 +1,10 @@
 #homePic {
-    height: 100%;
-    width: 80%;
+    
     border-radius: 8px
 }
 
 #homeJumbo {
-    height: 90%;
-    width: 100%;
+   
     border-radius: 8px;
     flex-wrap: wrap;
 }
@@ -54,8 +52,30 @@ h3 {
 hr {
     background-color:rgba(255, 217, 0, 0.767);
 }
+@media screen and ( min-width: 774px ) and ( max-width: 887px ) {
+    img#homePic  { height: 570px!important; }
+    #homeJumbo { height: 570px; width: 100%;}
+    /* .fa-instagram, .fa-twitter-square, .fa-youtube {
+     margin: 3px; padding: 4px;
+    } */
+    }
 
+@media screen and ( min-width: 888px )and ( max-width: 1024px ) {
+    img#homePic  { width: 80%; height: 570px;}
+    .fa-instagram, .fa-twitter-square, .fa-youtube {
+     margin: 3px; padding: 4px;
+    }
+    }
+
+@media screen and ( min-width: 1025px ) and ( max-width: 1080px ) {
+    img#homePic  { width: 80%; }
+    #homeJumbo { height: 570px; width: 100%;}
     
+    }
 
+@media screen and ( min-width: 1081px ) {
+    img#homePic { height: 570px; width: 80%;};
+    #homeJumbo { height: 570px; width: 100%;}
+    }
 
     

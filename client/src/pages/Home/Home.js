@@ -13,12 +13,12 @@ function Home() {
             <br />
             <Container>
                 <Row>
-                    <Col className="col-xl-5 col-md-12 m-3">
+                    <Col>
                     <div>
                         <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic"></Image>
                     </div>
                     </Col>
-                    <Col className="col-xl-5 col-md-12 m-3">
+                    <Col >
                     <div>
                     <Jumbotron id="homeJumbo">
                         <h3>Recent Roles</h3>
