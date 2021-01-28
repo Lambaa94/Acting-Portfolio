@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Nav } from 'react-bootstrap';
+import { Nav, Dropdown } from 'react-bootstrap';
 import "./Navbar.css";
 
 function Navtop() {
@@ -24,11 +24,12 @@ function Navtop() {
                    
                     <Link className={location.pathname==="/resume" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/resume">Resume</Link>
                     
-                   
                     <Link className={location.pathname==="/reel" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/reel">Reel</Link>
 
                     
+                   <Dropdown>
                     <Link className={location.pathname==="/photos" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/photos">Photos</Link>
+                </Dropdown>
                     <Link className={location.pathname==="/contact" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/contact">Contact Me</Link>
             
             </div>

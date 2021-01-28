@@ -38,8 +38,12 @@
 
 .navbar {
     background-color: #315F48;
+    height: 100px;
+
 }
 
 #nameTitle {
     color: gold;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

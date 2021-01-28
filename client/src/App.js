@@ -8,7 +8,7 @@ import Reel from "../src/pages/Reel/Reel";
 import Photos from "../src/pages/Photos/Photos";
 import Gallery from "../src/components/Gallery/Gallery";
 import Performance from "../src/components/Performance/Performance";
-
+import Contact from "../src/pages/Contact/Contact";
 
 function App() {
   
@@ -23,6 +23,7 @@ function App() {
     <Route exact path="/photos" component={Photos}/>
     <Route exact path="/gallery" component={Gallery}/>
     <Route exact path="/performance" component={Performance}/>
+    <Route exact path="/contact" component={Contact}/>
  </Router>
     </>
 

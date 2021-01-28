@@ -5,3 +5,8 @@
  padding: 0;
  border-radius: 8px;
 }
+
+.aboutMe {
+    width: 550px;
+    height: 550px;
+}
