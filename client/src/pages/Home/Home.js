@@ -1,5 +1,6 @@
 import React from "react";
-import { Jumbotron, Button, Container, Row, Col, Image, Carousel } from "react-bootstrap";
+import { Jumbotron, Button, Container, Row, Col, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 
@@ -34,7 +35,8 @@ function Home() {
                        
                         <br /><Row>
                             <Col>
-                                <Button id="contactMe">Contact Me</Button>
+                            <Link to="/contact">
+                                <Button id="contactMe">Contact Me</Button></Link>
 
                             </Col>
                             <Col>
