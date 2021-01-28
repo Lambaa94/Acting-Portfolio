@@ -17,8 +17,11 @@ function Contact() {
                 <Jumbotron className="contactForm">
                     <Col>
                
-                    <h4>Contact Me</h4>
-                    <br/>
+                    <h3>Contact Me</h3>
+                <hr/>
+                    <h4>youremailgoeshere@email.com</h4>
+                    <h4>000-000-0000</h4>
+                    <hr/>
                     <Form>
                         <Form.Group controlId="name">
                             
@@ -36,6 +39,7 @@ function Contact() {
                         
                         <Form.Control as="textarea" placeholder="Message" rows={5} />
                         </Form.Group>
+                        <Button id="send" type="submit">Send</Button>
                     </Form>
                     </Col>
                 </Jumbotron>

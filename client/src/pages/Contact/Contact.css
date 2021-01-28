@@ -9,3 +9,21 @@
     height: 600px;
     border-radius: 10px;
 }
+
+#send {
+    background-color: #283B36;
+   box-shadow: #283B36 6px 6px 0px 0px;
+   border-color: #283B36;
+   width: 150px;
+   height: 35px;
+}
+
+#send:hover {
+    box-shadow: #283B36 3px 3px 2px 2px;
+    color: rgba(255, 217, 0, 0.767);
+}
+
+#send:active {
+    
+    box-shadow:rgba(255, 217, 0, 0.767) 2px 2px 1px 1px;
+}
