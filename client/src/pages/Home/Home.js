@@ -13,11 +13,13 @@ function Home() {
             <br />
             <Container>
                 <Row>
-                    <Col>
+                    <Col className="col-xl-5 col-md-12 m-3">
+                    <div>
                         <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic"></Image>
-
+                    </div>
                     </Col>
-                    <Col>
+                    <Col className="col-xl-5 col-md-12 m-3">
+                    <div>
                     <Jumbotron id="homeJumbo">
                         <h3>Recent Roles</h3>
                         <hr />
@@ -43,7 +45,9 @@ function Home() {
                                 <span><i class="fab fa-3x fa-instagram"></i></span>{" "}<span><i class="fab fa-3x fa-youtube m-2"></i></span>{" "}<span><i class="fab fa-3x fa-twitter-square"></i></span>
                             </Col>
                         </Row>
-                    </Jumbotron></Col> 
+                    </Jumbotron>
+                    </div>
+                    </Col> 
                 </Row>
             </Container>
 
