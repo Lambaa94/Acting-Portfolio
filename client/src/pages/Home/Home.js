@@ -50,18 +50,24 @@ function Home() {
                     </Col> 
                 </Row>
             </Container>
+
             <Container id="setUp2">
                 <Row >
-                    <Col >
-                    <div >
-                        <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic" ></Image>
-                    </div>
+                    
+                    
+                    <Col>
+                    <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic2" ></Image>
                     </Col>
+                    
                     </Row>
+                    <br/>
                     <Row>
                     <Col>
-                    <div>
-                    <Jumbotron id="homeJumbo">
+                    <Jumbotron id="homeJumbo2">
+                       
+                    
+                        
+                   
                         <h3>Recent Roles</h3>
                         <hr />
                         <br />
@@ -76,19 +82,25 @@ function Home() {
                         <br />
                         <br />
                        
-                        <br /><Row>
+                        <br />
+                        
+                        <Row>
                             <Col>
                             <Link to="/contact">
                                 <Button id="contactMe">Contact Me</Button></Link>
 
                             </Col>
+                            </Row>
+                            <br></br>
+                            <Row>
                             <Col>
                                 <span><i class="fab fa-3x fa-instagram"></i></span>{" "}<span><i class="fab fa-3x fa-youtube m-2"></i></span>{" "}<span><i class="fab fa-3x fa-twitter-square"></i></span>
                             </Col>
-                        </Row>
+                            </Row>
+                        
                     </Jumbotron>
-                    </div>
-                    </Col> 
+                    </Col>
+                 
                     </Row>
                
             </Container>
