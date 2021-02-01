@@ -11,7 +11,7 @@ function Home() {
 
         <>
             <br />
-            <Container id="setUp1">
+            <Container className="setUp1">
                 <Row>
                     <Col>
                     <div>
@@ -51,7 +51,7 @@ function Home() {
                 </Row>
             </Container>
 
-            <Container id="setUp2">
+            <Container className="setUp2">
                 <Row >
                     
                     
