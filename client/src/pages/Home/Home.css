@@ -1,13 +1,17 @@
-#homePic {
+#setUp2 {
     
-    border-radius: 8px
-}
+};
+
+#homePic {
+ border-radius: 10px!important
+ 
+};
 
 #homeJumbo {
    
     border-radius: 8px;
     flex-wrap: wrap;
-}
+};
 
 
 #contactMe {
@@ -16,112 +20,104 @@
    border-color: #283B36;
    width: 180px;
    height: 55px;
-}
+};
 
 #contactMe:hover {
     box-shadow: #283B36 3px 3px 2px 2px;
     color: rgba(255, 217, 0, 0.767);
-}
+};
 
 #contactMe:active {
     
     box-shadow:rgba(255, 217, 0, 0.767) 2px 2px 1px 1px;
-}
+};
 
 .fa-instagram:hover {
 cursor: pointer;
 color: #B9348F;
 border-radius: 7px;
-}
+};
 
 .fa-youtube:hover {
     cursor: pointer;
     color: red;
 
-}
+};
 
 .fa-twitter-square:hover {
     cursor: pointer;
     color: #1DA1F2
-}
+};
 
 h3 {
     color:#283B36
-}
+};
  
 hr {
     background-color:rgba(255, 217, 0, 0.767);
-}
+};
 
-@media screen and ( min-width: 302px ) and ( max-width: 329px ) {
 
-}    
 
-@media screen and ( min-width: 330px ) and ( max-width: 373px ) {
 
-}
-@media screen and ( min-width: 374px ) and ( max-width: 402px ) {
-
-}
-@media screen and ( min-width: 403px ) and ( max-width: 454px ) {
-
-}
-
-@media screen and ( min-width: 455px ) and ( max-width: 538px ) {
-
-}
-
-@media screen and ( min-width: 539px ) and ( max-width: 691px ) {
-
+@media screen and ( min-width: 10px ) and ( max-width: 723px ){
+    #setUp2 {display: block;};
+    #setUp1 {display: none;}
 }
 
 @media screen and ( min-width: 724px ) and ( max-width: 803px ) {
-    img#homePic  { height: 560px!important; width: 340px!important; margin-left: -70px!important }
-    #homeJumbo { height: 560px!important; width: 130%!important; margin-left: -60px;}
+    #setUp1 {display: none;}
+    #setUp2 { display:block }
 }
 
-
-@media screen and ( min-width: 804px ) and ( max-width: 892px ) {
-    img#homePic  { height: 560px!important; width: 340px!important; margin-left: -70px!important }
+@media screen and ( min-width: 804px ) and ( max-width: 841px ) {
+    img#homePic  { height: 560px!important; width: 340px!important; margin-left: -50px!important }
     #homeJumbo { height: 560px!important; width: 130%!important; margin-left: -60px;}
-    /* .fa-instagram, .fa-twitter-square, .fa-youtube {
-     margin: 3px; padding: 4px;
-    } */
-    }
+   
+   
+}
 
+@media screen and ( min-width: 842px ) and ( max-width: 892px ) {
+    img#homePic  { height: 560px!important; width: 390px!important; margin-left: -70px!important }
+    #homeJumbo { height: 560px!important; width: 130%!important; margin-left: -10px;}
+}
+     
 @media screen and ( min-width: 893px ) and ( max-width: 992px ) {
-        img#homePic  { height: 560px!important; width: 390px!important; margin-left: -60px!important }
-        #homeJumbo { height: 560px!important; width: 130%!important; margin-left: 30px;}
-        /* .fa-instagram, .fa-twitter-square, .fa-youtube {
-         margin: 3px; padding: 4px;
-        } */
-        }
+    img#homePic  { height: 560px!important; width: 390px!important; margin-left: -70px!important }
+    #homeJumbo { height: 560px!important; width: 130%!important; margin-left: -10px;}
+    
+}
 
 @media screen and ( min-width: 923px ) and ( max-width: 972px ) {
-    img#homePic  { height: 570px!important; width: 390px; }
-    #homeJumbo { height: 570px; width: 100%;}
+    img#homePic  { height: 560px!important; width: 390px!important; }
+    #homeJumbo { height: 560px!important; width: 130%!important; margin-left: -10px;}
     /* .fa-instagram, .fa-twitter-square, .fa-youtube {
     margin: 3px; padding: 4px;
     } */
         }
 
-@media screen and ( min-width: 973px )and ( max-width: 1024px ) {
-    img#homePic  { width: 390px; height: 570px;}
-    #homeJumbo { height: 570px; width: 100%;}
-    /* .fa-instagram, .fa-twitter-square, .fa-youtube {
-     margin: 3px; padding: 4px;
-    } */
-    }
+@media screen and ( min-width: 973px )and ( max-width: 992px ) {
+    img#homePic  { width: 390px!important; height: 560px!important;}
+    #homeJumbo { height: 560px!important; width: 130%!important; margin-left: -10px;}
+           
+          
+}
+
+@media screen and ( min-width: 993px )and ( max-width: 1024px ) {
+    img#homePic  { width: 390px!important; height: 560px!important;}
+    #homeJumbo { height: 560px!important; width: 100%!important;}
+   
+  
+}
 
 @media screen and ( min-width: 1025px ) and ( max-width: 1080px ) {
-    img#homePic  { width: 390px; }
-    #homeJumbo { height: 570px; width: 100%;}
+    img#homePic  { height: 560px!important; width: 390px!important; }
+    #homeJumbo { height: 560px!important; width: 100%!important;}
     
-    }
-
+}
 @media screen and ( min-width: 1081px ) {
-    img#homePic { height: 570px; width: 390px;};
-    #homeJumbo { height: 570px; width: 100%;}
-    }
+    img#homePic { height: 560px!important; width: 390px!important;};
+    #homeJumbo { height: 560px!important; width: 100%!important;}
+    };
 
     
