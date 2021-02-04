@@ -128,11 +128,12 @@
     #homeJumbo, div.aboutMe.jumbotron { height: 560px!important; width: 100%!important;}
     
 }
+
 @media screen and ( min-width: 1081px ) {
     .setUp1 {display: block;}
     .setUp2 {display: none;}
     img#homePic, #aboutPic { height: 560px!important; width: 390px!important;};
-    #homeJumbo, div.aboutMe.jumbotron { height: 560px!important; width: !important;}
-    };
+    #homeJumbo, div.aboutMe.jumbotron { height: 560px!important; width:100% !important;}
+};
 
     

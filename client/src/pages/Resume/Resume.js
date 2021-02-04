@@ -8,7 +8,7 @@ function Resume() {
 <>
 <br/>
 
-<Container className="setUp1">
+<Container className="setUpResume1">
 <Row>
 <Col>
 <Image src="/images/img_4379.jpeg" alt="Hannah Ryen" id="resumePic"></Image>
@@ -145,14 +145,19 @@ function Resume() {
 
 </Container>
 
-<Container className="setUp2">
+{/* SET UP 2 STARTS HERE */}
+
+<Container className="setUpResume2">
 <Row>
 <Col>
-<Image src="/images/img_4379.jpeg" alt="Hannah Ryen" id="resumePic"></Image>
+<Image src="/images/img_4379.jpeg" alt="Hannah Ryen" id="resumePic2"></Image>
 
 </Col>
-<Jumbotron id="resumeJumbo">
-<Col>
+</Row>
+<br/>
+<Row>
+
+<Jumbotron id="resumeJumbo2">
 
 <span ><i className="far fa-3x fa-file-pdf"></i></span>
 
@@ -167,7 +172,7 @@ function Resume() {
 <p>Lead</p>
 </Col>
 <Col>
-<p>Where/Director</p>
+<p>/Director</p>
 </Col>
 </Row>
 {/* END OF ROW */}
@@ -180,7 +185,7 @@ function Resume() {
 <p>Lead</p>
 </Col>
 <Col>
-<p>Where/Director</p>
+<p>Director</p>
 </Col>
 </Row>
 {/* END OF ROW */}
@@ -193,7 +198,7 @@ function Resume() {
 <p>Lead</p>
 </Col>
 <Col>
-<p>Where/Director</p>
+<p>Director</p>
 </Col>
 </Row>
 {/* END OF ROW */}
@@ -211,7 +216,7 @@ function Resume() {
 <p>Lead</p>
 </Col>
 <Col>
-<p>Where/Director</p>
+<p>Director</p>
 </Col>
 </Row>
 {/* END OF ROW */}
@@ -225,7 +230,7 @@ function Resume() {
 <p>Lead</p>
 </Col>
 <Col>
-<p>Where/Director</p>
+<p>Director</p>
 </Col>
 </Row>
 {/* END OF ROW */}
@@ -239,7 +244,7 @@ function Resume() {
 <p>Lead</p>
 </Col>
 <Col>
-<p>Where/Director</p>
+<p>Director</p>
 </Col>
 </Row>
 {/* END OF ROW */}
@@ -274,8 +279,8 @@ function Resume() {
     <p>Here are some skills that you have.</p>
     </Col>
 </Row>
-</Col>
 </Jumbotron>
+
 
 </Row>
 
