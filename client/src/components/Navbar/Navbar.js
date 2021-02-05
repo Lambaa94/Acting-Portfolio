@@ -29,7 +29,7 @@ function Navtop() {
                     
                    <Dropdown>
                     <Link className={location.pathname==="/photos" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/photos">Photos</Link>
-                </Dropdown>
+                   </Dropdown>
                     <Link className={location.pathname==="/contact" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/contact">Contact Me</Link>
             
             </div>

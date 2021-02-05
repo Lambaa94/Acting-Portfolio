@@ -85,9 +85,9 @@
 @media screen and ( min-width: 1081px ) and ( max-width: 1199px ) {
     
     #reelPlaceholder {width: 630px; margin: auto; display: flex;}
-};
+}
 
 @media screen and ( min-width: 1200px ) {
     
     #reelPlaceholder {width: 630px; margin: auto; display: flex;}
-};
+}

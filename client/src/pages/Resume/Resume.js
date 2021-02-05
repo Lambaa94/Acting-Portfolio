@@ -158,7 +158,7 @@ function Resume() {
 <Row>
 
 <Jumbotron id="resumeJumbo2">
-
+<Col>
 <span ><i className="far fa-3x fa-file-pdf"></i></span>
 
 <br/>
@@ -279,6 +279,7 @@ function Resume() {
     <p>Here are some skills that you have.</p>
     </Col>
 </Row>
+</Col>
 </Jumbotron>
 
 

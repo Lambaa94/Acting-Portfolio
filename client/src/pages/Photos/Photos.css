@@ -1,19 +1,72 @@
-.photoTitle {
+.photoTitle, .photoTitle2 {
     text-align: center;
     color: rgba(255, 217, 0, 0.767);
 }
 
-.photosPics{
-    height: 500px;
-    width: 480px;
+.photosPics, .photosPics2{
+   
     border-radius: 8px;
     margin: 8px;
 }
 
-.photosPics:hover {
+.photosPics:hover, .photosPics2:hover  {
     opacity: 70%;
 
     animation: pulse;
     animation-duration: 1s; /* don't forget to set a duration! */
     cursor: pointer;
+}
+
+@media screen and ( min-width: 0px ) and ( max-width: 538px ) {
+    .photosSetUp1 { display: none; }
+    .photosSetUp2 { display: block; }
+    .photosPics2  { height: 500px!important; width: 90%!important; }
+  
+}
+
+
+@media screen and ( min-width: 339px ) and ( max-width: 507px ) {
+    .photosSetUp1 { display: none; }
+    .photosSetUp2 { display: block; }
+    .photosPics2  { height: 500px!important; width: 90%!important; }
+  
+}
+
+@media screen and ( min-width: 508px )and ( max-width: 599px ) {
+    .photosSetUp1 {display: none;}
+    .photosSetUp2 {display: block;}
+    .photosPics2  { height: 500px!important; width: 90%!important;}
+  
+}
+@media screen and ( min-width: 600px )and ( max-width: 992px ) {
+    .photosSetUp1 {display: none;}
+    .photosSetUp2 {display: block;}
+    .photosPics2  { height: 500px!important; width: 400px!important;}
+  
+}
+
+@media screen and ( min-width: 993px )and ( max-width: 1024px ) {
+    .photosSetUp1 {display: block;}
+    .photosSetUp2 {display: none;}
+    .photosPics  { height: 500px!important; width: 400px!important;}
+  
+}
+
+@media screen and ( min-width: 1025px ) and ( max-width: 1080px ) {
+    .photosSetUp1 {display: block;}
+    .photosSetUp2 {display: none;}
+    .photosPics  { height: 500px!important; width: 400px!important; }
+    
+}
+
+@media screen and ( min-width: 1081px ) and ( max-width: 1199px ) {
+    .photosSetUp1 {display: block;}
+    .photosSetUp2 {display: none;}
+    .photosPics { height: 500px!important; width: 400px!important;};
+}
+
+@media screen and ( min-width: 1200px ) {
+    .photosSetUp1 {display: block;}
+    .photosSetUp2 {display: none;}
+    .photosPics { height: 500px!important; width: 480px!important;};
 }

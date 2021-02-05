@@ -11,7 +11,7 @@ function Photos() {
             <br />
 
 
-            <Container>
+            <Container className="photosSetUp1">
                         
                 <Row>
                     <Col className="photoTitle">
@@ -33,6 +33,40 @@ function Photos() {
                         <Row>
                             <Col>
                            <Link to="/performance"><Image src="/images/pexels-cottonbro-4722583.jpg" alt="Hannah Ryen" className="photosPics"></Image></Link> 
+                            </Col>
+                            
+                        </Row>
+                       
+</Col>
+                </Row>
+                    
+
+            </Container>
+
+
+            <Container className="photosSetUp2">
+                        
+                <Row>
+                    <Col className="photoTitle2">
+                        <h1>Gallery</h1>
+                        <Row>
+                            <Col>
+                          <Link to="/gallery"> <Image src="/images/pexels-vitaly-vlasov-1655817.jpg" alt="Hannah Ryen" className="photosPics2"></Image></Link> 
+                            </Col>
+                            
+                        </Row>
+                        
+                     
+
+                    </Col>
+</Row>
+<Row>
+                    <Col className="photoTitle2">
+                      
+                        <h1>Performance</h1>
+                        <Row>
+                            <Col>
+                           <Link to="/performance"><Image src="/images/pexels-cottonbro-4722583.jpg" alt="Hannah Ryen" className="photosPics2"></Image></Link> 
                             </Col>
                             
                         </Row>
