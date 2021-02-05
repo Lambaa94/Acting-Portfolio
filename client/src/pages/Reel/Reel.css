@@ -1,6 +1,93 @@
-#reelPlaceholder {
-    width: auto;
-    height: auto;
-    margin: auto;
-    padding: auto;
+@media screen and ( min-width: 0px ) and ( max-width: 199px ){
+    
+    #reelPlaceholder {width: 250px; margin: auto; display: flex;}
 }
+
+@media screen and ( min-width: 200px ) and ( max-width: 399px ){
+    
+    #reelPlaceholder {width: 250px; margin: auto; display: flex;}
+}
+
+@media screen and ( min-width: 300px ) and ( max-width: 449px ){
+    
+    #reelPlaceholder {width: 330px; margin: auto; display: flex;}
+}
+
+@media screen and ( min-width: 450px ) and ( max-width: 579px ){
+    
+    #reelPlaceholder {width: 450px; margin: auto; display: flex;}
+}
+
+@media screen and ( min-width: 579px ) and ( max-width: 723px ){
+    
+    #reelPlaceholder {width: 525px; margin: auto; display: flex;}
+}
+
+@media screen and ( min-width: 724px ) and ( max-width: 767px ){
+ 
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+
+
+
+}
+
+@media screen and ( min-width: 768px ) and ( max-width: 803px ) {
+    
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+    
+
+}
+
+@media screen and ( min-width: 804px ) and ( max-width: 841px ) {
+    
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+   
+   
+}
+
+@media screen and ( min-width: 842px ) and ( max-width: 892px ) {
+    
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+}
+     
+@media screen and ( min-width: 893px ) and ( max-width: 992px ) {
+   
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+    
+}
+
+@media screen and ( min-width: 923px ) and ( max-width: 972px ) {
+   
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+    
+}
+
+@media screen and ( min-width: 973px )and ( max-width: 992px ) {
+    
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+           
+          
+}
+
+@media screen and ( min-width: 993px )and ( max-width: 1024px ) {
+    
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+   
+  
+}
+
+@media screen and ( min-width: 1025px ) and ( max-width: 1080px ) {
+    
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+    
+}
+
+@media screen and ( min-width: 1081px ) and ( max-width: 1199px ) {
+    
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+};
+
+@media screen and ( min-width: 1200px ) {
+    
+    #reelPlaceholder {width: 630px; margin: auto; display: flex;}
+};

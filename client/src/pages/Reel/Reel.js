@@ -7,10 +7,10 @@ function Reel() {
     return(
         <>
         <br/>
-        <Container>
-        <Jumbotron>
+        <Container id="reel">
+    
         <Image src="https://via.placeholder.com/1050x500.png?text=Reel+Coming+Soon!" alt="Hannah Ryen" id="reelPlaceholder"></Image>
-        </Jumbotron>
+      
         </Container>
         </>
 
