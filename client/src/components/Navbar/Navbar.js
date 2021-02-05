@@ -10,11 +10,12 @@ function Navtop() {
         <>
         <Navbar expand="lg" sticky="top" className="navbar">
             <Navbar.Brand href="/" className="navbar-brand" id="nameTitle" >Hannah Ryen</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav"  />
-            <Navbar.Collapse id="basic-navbar-nav collapseList">
-            <Nav className="mr-auto" id="navbarNav">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                 
-                    <Link className={location.pathname==="/" ? "mr-2 active": "mr-2 nav-item" } to="/">Home</Link>
+            <Nav id="navbarNav">
+                
+                    <Link className={location.pathname==="/" ? "mr-2 nav-item active": "mr-2 nav-item" } to="/">Home</Link>
                     
                    
                   
@@ -32,6 +33,7 @@ function Navtop() {
                     <Link className={location.pathname==="/contact" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/contact">Contact Me</Link>
             
             </Nav>
+           
             </Navbar.Collapse>
         </Navbar>
 

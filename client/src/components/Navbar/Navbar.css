@@ -8,10 +8,12 @@
     color: white;
     padding: 5px;
     background-color: #315F48;
+    text-align: center;
+    
 }
 
 .nav-item:hover {
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid gold;
     cursor: pointer;
     text-decoration: none;
     color: whitesmoke;
@@ -40,15 +42,11 @@
 .navbar {
     background-color: #315F48;
     height: 100px;
-
+    
 }
 
 #nameTitle {
     color: gold;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#collapseList {
-    background-color: gold;
 }
