@@ -30,7 +30,7 @@ function Navtop() {
                    
                     <Link className={location.pathname==="/photos" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/photos">Photos</Link>
                    
-                    <Link className={location.pathname==="/contact" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/contact">Contact Me</Link>
+                    <Link className={location.pathname==="/contact" ? "mr-2 nav-item active contactMeNav": "mr-2 nav-item contactMeNav"} to="/contact">Contact Me</Link>
             
             </Nav>
            

@@ -12,11 +12,15 @@
     
 }
 
+.contactMeNav {
+    border-radius: 0px 0px 20px 20px;
+}
 .nav-item:hover {
     border-bottom: 1px solid gold;
     cursor: pointer;
     text-decoration: none;
     color: whitesmoke;
+    border-radius: 0px;
 }
 
 .nav-item > .active {
