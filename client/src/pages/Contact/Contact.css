@@ -1,12 +1,10 @@
 .contactPics {
-    width: 450px;
-    height:600px;
+    
     border-radius: 10px;
 }
 
 .contactForm {
-    width: 500px;
-    height: 600px;
+    
     border-radius: 10px;
 }
 
@@ -26,4 +24,43 @@
 #send:active {
     
     box-shadow:rgba(255, 217, 0, 0.767) 2px 2px 1px 1px;
+}
+
+@media screen and ( min-width: 0px ) and ( max-width: 299px ) {
+    .contactSetUp1 {display: none;}
+    .contactSetUp2 {display: block;}
+    .contactPics, .contactPics2 { width: 240px; height: 380px; margin: auto; display: flex; }
+    .contactForm, .contactForm2 { width: 100%; height: 600px; margin: auto; display: flex; }
+    
+}
+
+@media screen and ( min-width: 300px ) and ( max-width: 459px ) {
+    .contactSetUp1 {display: none;}
+    .contactSetUp2 {display: block;}
+    .contactPics, .contactPics2 {  width: 300px; height: 400px; margin: auto; display: flex; }
+    .contactForm, .contactForm2 { width: 100%; height: 580px; margin: auto; display: flex; }
+    
+}
+
+@media screen and ( min-width: 460px ) and ( max-width: 1081px ) {
+    .contactSetUp1 {display: none;}
+    .contactSetUp2 {display: block;}
+    .contactPics, .contactPics2 { width: 430px; height: 600px; margin: auto; display: flex; }
+    .contactForm, .contactForm2 { width: 500px; height: 600px; margin: auto; display: flex; }
+    
+}
+
+@media screen and ( min-width: 1081px ) and ( max-width: 1202px ) {
+    .contactSetUp1 {display: block;}
+    .contactSetUp2 {display: none;}
+    .contactPics, .contactPics2 { width: 430px; height: 600px; }
+    .contactForm, .contactForm2 { width: 500px; height: 600px; }
+    
+}
+
+@media screen and ( min-width: 1203px ) {
+    .contactSetUp1 {display: block;}
+    .contactSetUp2 {display: none;}
+    .contactPics, .contactPics2 { width: 450px; height: 600px; }
+    .contactForm, .contactForm2 { width: 600px; height: 600px; }
 }
