@@ -10,6 +10,8 @@ import Gallery from "../src/components/Gallery/Gallery";
 import Performance from "../src/components/Performance/Performance";
 import Contact from "../src/pages/Contact/Contact";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   
   return (

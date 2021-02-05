@@ -7,6 +7,7 @@
 .nav-item {
     color: white;
     padding: 5px;
+    background-color: #315F48;
 }
 
 .nav-item:hover {
@@ -44,6 +45,10 @@
 
 #nameTitle {
     color: gold;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#collapseList {
+    background-color: gold;
 }
