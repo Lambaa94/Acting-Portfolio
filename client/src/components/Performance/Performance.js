@@ -10,6 +10,9 @@ function Performance() {
 
 <Link to="/gallery">
        <i class="fas fa-3x fa-arrow-circle-left otherPageTwo"></i></Link>
+       <br/>
+       <br/>
+       <br/>
         <Container>
 <Row>
     <Col>
@@ -17,7 +20,7 @@ function Performance() {
     </Col>
 </Row>
 
-
+<br/>
 <Row>
     <Col>
             <Image src="images/IMG_5929.JPG" alt="Hannah Ryen" className="performancePics"></Image>
@@ -25,7 +28,7 @@ function Performance() {
 
 
 </Row>
-
+<br/>
 <Row>
     <Col>
             <Image src="/images/img_5572.jpeg" alt="Hannah Ryen" className="performancePics"></Image>
