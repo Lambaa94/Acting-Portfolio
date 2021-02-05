@@ -1,8 +1,8 @@
 .galleryPics {
-    width: 350px;
-    height: 500px;
-    margin: 5px;
-    margin-top: 10px;
+    width: 95%;
+    height: 100%;
+    margin: 10px;
+    padding-bottom: 20px;
     border-radius: 15px;
 }
 
@@ -28,4 +28,28 @@
     
     color: gold;
     /* background-color:#315F48; */
+}
+
+@media screen and ( min-width: 0px ) and (max-width: 649px){
+    .gallerySetUp1 { display: none }
+    .gallerySetUp2 { display: block }
+    
+}
+
+@media screen and ( min-width: 650px ) and (max-width: 1080px){
+    .gallerySetUp1 { display: block }
+    .gallerySetUp2 { display: none }
+    
+}
+
+@media screen and ( min-width: 1081px ) and (max-width: 1999px){
+    .gallerySetUp1 { display: block }
+    .gallerySetUp2 { display: none }
+    
+}
+
+@media screen and ( min-width: 1200px ) {
+    .gallerySetUp1 { display: block }
+    .gallerySetUp2 { display: none }
+
 }
