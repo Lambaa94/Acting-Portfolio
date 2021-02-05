@@ -25,7 +25,7 @@
 @media screen and ( min-width: 0px ) and ( max-width: 299px ) {
     .setUpResume1 {display: none;}
     .setUpResume2 {display: block;}
-    #resumePic2 { height: 300px!important; width: 200px!important; margin: auto; justify-content: center; display: flex };
+    #resumePic2 { height: 300px!important; width: 200px!important; margin: auto; justify-content: center; display: flex }
 
     #resumeJumbo2 { height: 560px!important; width:100%!important; margin: auto!important; justify-content: center!important; display: flex!important}
     
@@ -53,7 +53,7 @@
     .setUpResume1 {display: block;}
     .setUpResume2 {display: none;}
     #resumePic { height: 560px!important; width: 390px!important; }
-    #resumeJumbo { height: 560px!important; width:550px !important; margin-left: 0px!important; }
+    #resumeJumbo { height: 560px!important; width:500px !important; margin-left: 0px!important; }
     
 }
 
