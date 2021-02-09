@@ -6,6 +6,7 @@ import "./Contact.css";
 
 function Contact() {
 
+
     const [formData, setFormData] = useState({})
 
     const updateInput = e => {
@@ -35,7 +36,7 @@ function Contact() {
                     message: formData.message,
                     time: new Date(),
                 })
-                console.log("done")
+              
             })
             .catch(error => {
                 console.log(error)
@@ -43,8 +44,9 @@ function Contact() {
     }
     return (
         <>
+        
             <br />
-
+        
             <Container className="contactSetUp1">
                 <Row>
                     <Col>
