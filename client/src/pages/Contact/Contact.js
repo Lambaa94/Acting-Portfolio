@@ -1,10 +1,45 @@
-import React from "react";
+import React, { useState } from 'react'
+import { Axios, db } from '../../firebase/firebaseConfig'
 import { Form, Button, Container, Jumbotron, Row, Col, Image } from "react-bootstrap";
 import "./Contact.css";
 
 
 function Contact() {
 
+    const [formData, setFormData] = useState({})
+
+  const updateInput = e => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    })
+  }
+  const handleSubmit = event => {
+    event.preventDefault()
+    sendEmail()
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+    })
+  }
+  const sendEmail = () => {
+    Axios.post(
+      'https://us-central1-acting-portfolio-ef828.cloudfunctions.net/submit',
+      formData
+    )
+      .then(res => {
+        db.collection('emails').add({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          time: new Date(),
+        })
+      })
+      .catch(error => {
+        console.log(error)
+      })
+  }
     return (
         <>
         <br/>
@@ -22,22 +57,21 @@ function Contact() {
                     <h4>youremailgoeshere@email.com</h4>
                     <h4>000-000-0000</h4>
                     <hr/>
-                    <Form>
+                    <Form onSubmit={handleSubmit}>
                         <Form.Group controlId="name">
                             
-                            <Form.Control type="name" placeholder="Name" />
+                            <Form.Control type="name" placeholder="Name" onChange={updateInput}
+          value={formData.name}/>
                         </Form.Group>
                         <Form.Group controlId="email">
                             
-                            <Form.Control type="email" placeholder="Email" />
-                        </Form.Group>
-                        <Form.Group controlId="subject">
-                            
-                            <Form.Control type="text" placeholder="Subject" />
+                            <Form.Control type="email" placeholder="Email" onChange={updateInput}
+          value={formData.email} />
                         </Form.Group>
                         <Form.Group controlId="message">
                         
-                        <Form.Control as="textarea" placeholder="Message" rows={5} />
+                        <Form.Control as="textarea" placeholder="Message" rows={5} onChange={updateInput}
+          value={formData.message}/>
                         </Form.Group>
                         <Button id="send" type="submit">Send</Button>
                     </Form>
@@ -62,22 +96,21 @@ function Contact() {
                     <p>youremailgoeshere@email.com</p>
                     <h4>000-000-0000</h4>
                     <hr/>
-                    <Form>
+                    <Form onSubmit={handleSubmit}>
                         <Form.Group controlId="name">
                             
-                            <Form.Control type="name" placeholder="Name" />
+                            <Form.Control type="name" placeholder="Name" onChange={updateInput}
+          value={formData.name}/>
                         </Form.Group>
                         <Form.Group controlId="email">
                             
-                            <Form.Control type="email" placeholder="Email" />
-                        </Form.Group>
-                        <Form.Group controlId="subject">
-                            
-                            <Form.Control type="text" placeholder="Subject" />
+                            <Form.Control type="email" placeholder="Email" onChange={updateInput}
+          value={formData.email} />
                         </Form.Group>
                         <Form.Group controlId="message">
                         
-                        <Form.Control as="textarea" placeholder="Message" rows={5} />
+                        <Form.Control as="textarea" placeholder="Message" rows={5} onChange={updateInput}
+          value={formData.message}/>
                         </Form.Group>
                         <Button id="send" type="submit">Send</Button>
                     </Form>
