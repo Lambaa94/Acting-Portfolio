@@ -96,8 +96,8 @@ function Contact() {
 
                             <h3>Contact Me</h3>
                             <hr />
-                            <p>youremailgoeshere@email.com</p>
-                            <h4>000-000-0000</h4>
+                            <p>hannahryenn@gmail</p>
+                            <h4>609-709-6536</h4>
                             <hr />
                             
                             <Form onSubmit={handleSubmit}>
