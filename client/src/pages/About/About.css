@@ -3,10 +3,11 @@
  width: 400px;
  margin: 0;
  padding: 0;
- border-radius: 8px;
+ border-radius: 10px;
 }
 
 .aboutMe {
     width: 550px;
     height: 550px;
+    border-radius: 10px!important;
 }
