@@ -25,6 +25,10 @@
     
     box-shadow:rgba(255, 217, 0, 0.767) 2px 2px 1px 1px;
 }
+.toastyContainer {
+    border-radius: 10px!important;
+    color: black!important;
+}
 
 @media screen and ( min-width: 0px ) and ( max-width: 299px ) {
     .contactSetUp1 {display: none;}

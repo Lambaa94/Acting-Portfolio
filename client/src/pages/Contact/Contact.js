@@ -1,10 +1,22 @@
 import React, { useState } from 'react'
 import { Axios, db } from '../../firebase/firebaseConfig'
 import { Form, Button, Container, Jumbotron, Row, Col, Image } from "react-bootstrap";
+import { ToastContainer, toast } from 'react-toastify';
 import "./Contact.css";
-
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
+    // toast
+    const notify = () => toast(`Thank you ${formData.name}. Your email has been sent!`, {
+        position: "top-right",
+        autoClose: 4000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        className: "toastyContainer",
+    });
 
 
     const [formData, setFormData] = useState({})
@@ -36,17 +48,21 @@ function Contact() {
                     message: formData.message,
                     time: new Date(),
                 })
-              
-            })
+
+            }).then(() => notify())
             .catch(error => {
                 console.log(error)
             })
     }
     return (
         <>
-        
-            <br />
-        
+            <ToastContainer className="toastyContainer"/>
+            
+            <br/>
+
+
+           
+
             <Container className="contactSetUp1">
                 <Row>
                     <Col>
@@ -99,7 +115,7 @@ function Contact() {
                             <h4>hannahryenn@gmail</h4>
                             <h4>609-709-6536</h4>
                             <hr />
-                            
+
                             <Form onSubmit={handleSubmit}>
                                 <Form.Group controlId="name">
 
