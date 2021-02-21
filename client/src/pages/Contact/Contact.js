@@ -57,8 +57,8 @@ function Contact() {
 
                             <h3>Contact Me</h3>
                             <hr />
-                            <h4>youremailgoeshere@email.com</h4>
-                            <h4>000-000-0000</h4>
+                            <h4>hannahryenn@gmail</h4>
+                            <h4>609-709-6536</h4>
                             <hr />
                             <Form onSubmit={handleSubmit}>
                                 <Form.Group controlId="name">
@@ -76,7 +76,7 @@ function Contact() {
                                     <Form.Control as="textarea" name="message" placeholder="Message" rows={5} onChange={updateInput}
                                         value={formData.message || ''} />
                                 </Form.Group>
-                                <Button id="send" type="submit">Send</Button>
+                                <Button id="send" type="submit" block disabled={!(formData.name && formData.email && formData.message)}>Send</Button>
                             </Form>
                         </Col>
                     </Jumbotron>
@@ -96,7 +96,7 @@ function Contact() {
 
                             <h3>Contact Me</h3>
                             <hr />
-                            <p>hannahryenn@gmail</p>
+                            <h4>hannahryenn@gmail</h4>
                             <h4>609-709-6536</h4>
                             <hr />
                             
