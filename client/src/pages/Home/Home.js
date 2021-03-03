@@ -15,12 +15,12 @@ function Home() {
                 <Row>
                     <Col>
                     <div>
-                        <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic"></Image>
+                        <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}></Image>
                     </div>
                     </Col>
                     <Col >
                     <div>
-                    <Jumbotron id="homeJumbo">
+                    <Jumbotron id="homeJumbo" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}>
                         <h3>Recent Roles</h3>
                         <hr />
                         <br />
@@ -56,14 +56,14 @@ function Home() {
                     
                     
                     <Col>
-                    <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic2" ></Image>
+                    <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic2" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}></Image>
                     </Col>
                     
                     </Row>
                     <br/>
                     <Row>
                     <Col>
-                    <Jumbotron id="homeJumbo2">
+                    <Jumbotron id="homeJumbo2" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}>
                        
                     
                         

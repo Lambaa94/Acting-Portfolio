@@ -1,5 +1,6 @@
 #resumePic, #resumePic2 {
-    border-radius: 8px
+    border-radius: 8px;
+    box-shadow: rgb(227, 219, 219) 0px 2px 2px 2px;
 }
 
 .fa-file-pdf {
@@ -19,7 +20,7 @@
 #resumeJumbo, #resumeJumbo2 {
     margin: auto;
     border-radius: 8px;
-
+    box-shadow: rgb(227, 219, 219) 0px 3px 3px 3px;
 }
 
 @media screen and ( min-width: 0px ) and ( max-width: 299px ) {
@@ -43,7 +44,7 @@
 @media screen and ( min-width: 400px ) and ( max-width: 1081px ) {
     .setUpResume1 {display: none;}
     .setUpResume2 {display: block;}
-    #resumePic2 { height: 480px!important; width: 300px!important; margin: auto; justify-content: center; display: flex }
+    #resumePic2 { height: 480px!important; width: 330px!important; margin: auto; justify-content: center; display: flex }
 
     #resumeJumbo2 { height: 100%!important; width:100%!important; margin: auto!important; justify-content: center!important; display: flex!important}
     
@@ -52,14 +53,14 @@
 @media screen and ( min-width: 1081px ) and ( max-width: 1202px ) {
     .setUpResume1 {display: block;}
     .setUpResume2 {display: none;}
-    #resumePic { height: 560px!important; width: 390px!important; }
-    #resumeJumbo { height: 560px!important; width:500px !important; margin-left: 0px!important; }
+    #resumePic { height: 560px!important; width: 360px!important; }
+    #resumeJumbo { height: auto!important; width:500px !important; margin-left: 0px!important; }
     
 }
 
 @media screen and ( min-width: 1203px ) {
     .setUpResume1 {display: block;}
     .setUpResume2 {display: none;}
-    #resumePic { height: 560px!important; width: 390px!important; }
-    #resumeJumbo { height: 560px!important; width: 600px!important; }
+    #resumePic { height: 560px!important; width: 360px!important; }
+    #resumeJumbo { height: auto!important; width: 600px!important; }
 }

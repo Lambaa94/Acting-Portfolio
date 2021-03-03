@@ -16,28 +16,29 @@
     border-radius: 0px 0px 20px 20px;
 }
 .nav-item:hover {
-    border-bottom: 1px solid gold;
+    border: .5px solid;
+    border-color: rgb(179, 179, 179);
     cursor: pointer;
     text-decoration: none;
     color: whitesmoke;
-    border-radius: 0px;
+    border-radius: 5px;
 }
 
 .nav-item > .active {
-    border-bottom: 1px solid #333;
+    border-color: gold;
     color: white;
     text-decoration: none;
     color: whitesmoke;
 }
 
 .active {
-    border-bottom: 1px gold;
+    border-color: gold;
     color: gold;
     text-decoration: none;
 }
 
 .active:hover {
-    border-bottom: 1px gold;
+    border-color: gold;
     color: gold;
     text-decoration: none;
     
