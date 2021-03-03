@@ -6,10 +6,17 @@
  border-radius: 10px;
  box-shadow: rgb(227, 219, 219) 0px 2px 2px 2px;
 }
+#aboutPic2 {
+    box-shadow: rgb(227, 219, 219) 0px 2px 2px 2px;
+}
 
 .aboutMe {
     width: 550px;
     height: 550px;
     border-radius: 10px!important;
+    box-shadow: rgb(227, 219, 219) 0px 2px 2px 2px;
+}
+
+.aboutMe2 {
     box-shadow: rgb(227, 219, 219) 0px 2px 2px 2px;
 }
