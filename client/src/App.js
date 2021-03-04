@@ -16,7 +16,7 @@ function App() {
   
   return (
     <>
-    <Router>
+    <Router basename="/Acting-Portfolio">
     <Navtop/>
     <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
