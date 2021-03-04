@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Nav, Navbar, Dropdown } from 'react-bootstrap';
+import { Nav, Navbar} from 'react-bootstrap';
 import "./Navbar.css";
 
 function Navtop() {
