@@ -16,7 +16,7 @@ function App() {
   
   return (
     <>
-    {/* <Router basename="/Acting-Portfolio"> */}
+    <Router basename="/Acting-Portfolio">
     <Navtop/>
     <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
@@ -26,7 +26,7 @@ function App() {
     <Route exact path="/gallery" component={Gallery}/>
     <Route exact path="/performance" component={Performance}/>
     <Route exact path="/contact" component={Contact}/>
- {/* </Router> */}
+ </Router>
     </>
 
   );
