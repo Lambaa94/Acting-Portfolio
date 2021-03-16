@@ -16,7 +16,7 @@ function App() {
   
   return (
     <>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="lambaa94.github.io/Acting-Portfolio">
     <Navtop/>
     <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
