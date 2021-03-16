@@ -16,7 +16,7 @@ function App() {
   
   return (
     <>
-    <Router basename="lambaa94.github.io/Acting-Portfolio">
+    <Router basename="/Acting-Portfolio">
     <Navtop/>
     <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
