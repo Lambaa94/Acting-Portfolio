@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Jumbotron, Button, Container, Row, Col, Image, Carousel } from "react-bootstrap";
+import { Jumbotron, Container, Row, Col, Image } from "react-bootstrap";
 import "./About.css"
 
 function About() {

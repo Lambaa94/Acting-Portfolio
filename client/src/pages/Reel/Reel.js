@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Button, Container, Row, Col, Image, Carousel } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import "./Reel.css";
 
 function Reel() {

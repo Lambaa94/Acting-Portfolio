@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Button, Container, Row, Col, Image, Carousel } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Gallery.css";
 
