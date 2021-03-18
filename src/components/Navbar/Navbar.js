@@ -15,22 +15,22 @@ function Navtop() {
                 
             <Nav id="navbarNav">
                 
-                    <Link className={location.pathname==="Acting-Portfolio/" ? "mr-2 nav-item active": "mr-2 nav-item" } to="Acting-Portfolio/">Home</Link>
+                    <Link className={location.pathname==="/" ? "mr-2 nav-item active": "mr-2 nav-item" } to="/">Home</Link>
                     
                    
                   
-                    <Link className={location.pathname==="Acting-Portfolio/about" ? "mr-2 nav-item active": "mr-2 nav-item"} to="Acting-Portfolio/about">About Me</Link>
+                    <Link className={location.pathname==="/about" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/about">About Me</Link>
                     
                    
-                    <Link className={location.pathname==="Acting-Portfolio/resume" ? "mr-2 nav-item active": "mr-2 nav-item"} to="Acting-Portfolio/resume">Resume</Link>
+                    <Link className={location.pathname==="/resume" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/resume">Resume</Link>
                     
-                    <Link className={location.pathname==="Acting-Portfolio/reel" ? "mr-2 nav-item active": "mr-2 nav-item"} to="Acting-Portfolio/reel">Reel</Link>
+                    <Link className={location.pathname==="/reel" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/reel">Reel</Link>
 
                     
                    
-                    <Link className={location.pathname==="Acting-Portfolio/photos" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/photos">Photos</Link>
+                    <Link className={location.pathname==="/photos" ? "mr-2 nav-item active": "mr-2 nav-item"} to="/photos">Photos</Link>
                    
-                    <Link className={location.pathname==="Acting-Portfolio/contact" ? "mr-2 nav-item active contactMeNav": "mr-2 nav-item contactMeNav"} to="Acting-Portfolio/contact">Contact Me</Link>
+                    <Link className={location.pathname==="/contact" ? "mr-2 nav-item active contactMeNav": "mr-2 nav-item contactMeNav"} to="/contact">Contact Me</Link>
             
             </Nav>
            
