@@ -73,7 +73,7 @@ function Gallery() {
             <Row>
 
 
-<Image src="Acting-Portfolio/images/img_4358.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="/images/img_4358.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Row>
 <Row>
