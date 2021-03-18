@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Navtop from "../src/components/Navbar/Navbar";
-import About from "../src/pages/About/About";
-import Resume from "../src/pages/Resume/Resume";
-import Reel from "../src/pages/Reel/Reel";
-import Photos from "../src/pages/Photos/Photos";
-import Gallery from "../src/components/Gallery/Gallery";
-import Performance from "../src/components/Performance/Performance";
-import Contact from "../src/pages/Contact/Contact";
+import Navtop from "./components/Navbar/Navbar";
+import About from "./pages/About/About";
+import Resume from "./pages/Resume/Resume";
+import Reel from "./pages/Reel/Reel";
+import Photos from "./pages/Photos/Photos";
+import Gallery from "./components/Gallery/Gallery";
+import Performance from "./components/Performance/Performance";
+import Contact from "./pages/Contact/Contact";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

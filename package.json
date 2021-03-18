@@ -2,7 +2,7 @@
   "name": "acting-portfolio",
   "version": "1.0.0",
   "description": "An acting site temp",
-  "homepage": "https://lambaa94.github.io/",
+  "homepage": "https://lambaa94.github.io/Acting-Portfolio",
   "main": "server.js",
   "dependencies": {
     "animate.css": "^4.1.1",
@@ -27,15 +27,12 @@
     "nodemon": "^1.19.4"
   },
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "predeploy": "cd client && npm run build",
-    "deploy": "cd client && gh-pages -d build",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd client && npm run start",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "test": "npm test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
