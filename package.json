@@ -2,7 +2,7 @@
   "name": "acting-portfolio",
   "version": "1.0.0",
   "description": "An acting site temp",
-  "homepage": "https://lambaa94.github.io/Acting-Portfolio",
+  "homepage": ".",
   "main": "server.js",
   "dependencies": {
     "animate.css": "^4.1.1",
