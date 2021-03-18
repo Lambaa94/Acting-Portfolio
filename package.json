@@ -16,7 +16,9 @@
     "node-sass": "^5.0.0",
     "react-bootstrap": "^1.4.3",
     "react-bootstrap-typeahead": "^5.1.2",
+    "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
     "react-toastify": "^6.2.0",
     "reactstrap": "^8.7.1",
     "serve": "^11.3.2"
@@ -42,5 +44,17 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Lambaa94/Acting-Portfolio/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

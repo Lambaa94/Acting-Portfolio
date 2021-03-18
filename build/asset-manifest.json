@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Acting-Portfolio/static/css/main.1b7e1d6a.chunk.css",
+    "main.js": "/Acting-Portfolio/static/js/main.7942165e.chunk.js",
+    "main.js.map": "/Acting-Portfolio/static/js/main.7942165e.chunk.js.map",
+    "runtime-main.js": "/Acting-Portfolio/static/js/runtime-main.e22d3378.js",
+    "runtime-main.js.map": "/Acting-Portfolio/static/js/runtime-main.e22d3378.js.map",
+    "static/css/2.4abea776.chunk.css": "/Acting-Portfolio/static/css/2.4abea776.chunk.css",
+    "static/js/2.b1e33546.chunk.js": "/Acting-Portfolio/static/js/2.b1e33546.chunk.js",
+    "static/js/2.b1e33546.chunk.js.map": "/Acting-Portfolio/static/js/2.b1e33546.chunk.js.map",
+    "index.html": "/Acting-Portfolio/index.html",
+    "static/css/2.4abea776.chunk.css.map": "/Acting-Portfolio/static/css/2.4abea776.chunk.css.map",
+    "static/css/main.1b7e1d6a.chunk.css.map": "/Acting-Portfolio/static/css/main.1b7e1d6a.chunk.css.map",
+    "static/js/2.b1e33546.chunk.js.LICENSE.txt": "/Acting-Portfolio/static/js/2.b1e33546.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/Acting-Portfolio/static/media/christina-deravedisian-we5c6QdfNCw-unsplash.5f4d4ae5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e22d3378.js",
+    "static/css/2.4abea776.chunk.css",
+    "static/js/2.b1e33546.chunk.js",
+    "static/css/main.1b7e1d6a.chunk.css",
+    "static/js/main.7942165e.chunk.js"
+  ]
+}
