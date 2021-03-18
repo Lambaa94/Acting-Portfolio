@@ -15,7 +15,7 @@ function Home() {
                 <Row>
                     <Col>
                     <div>
-                        <Image src="Acting-Portfolio/public/images/img4368.jpeg" alt="Hannah Ryen" id="homePic" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}></Image>
+                        <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}></Image>
                     </div>
                     </Col>
                     <Col >
