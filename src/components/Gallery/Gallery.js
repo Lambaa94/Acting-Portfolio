@@ -26,7 +26,7 @@ function Gallery() {
 
 </Col>
 <Col>
-<Image src="/images/702AA743-1BF8-4834-9CB6-129DF0AB2406.JPG" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="/images/702AA743-1BF8-4834-9CB6-129DF0AB2406.JPG?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Col>
 <Col>
