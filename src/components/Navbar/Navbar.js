@@ -9,7 +9,7 @@ function Navtop() {
     return (
         <>
         <Navbar expand="lg" sticky="top" className="navbar">
-            <Navbar.Brand href="Acting-Portfolio/" className="navbar-brand" id="nameTitle" >Hannah Ryen</Navbar.Brand>
+            <Navbar.Brand className="navbar-brand" id="nameTitle" >Hannah Ryen</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                 
