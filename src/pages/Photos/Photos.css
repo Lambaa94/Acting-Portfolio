@@ -9,21 +9,14 @@
     margin: 8px;
 }
 
-.photosPics:hover {
-    opacity: 70%!important;
+.photosPics:hover, .photosPics2:hover  {
+    
 
     animation: pulse!important;
     animation-duration: 1s!important; /* don't forget to set a duration! */
     cursor: pointer!important;
 }
 
-.photosPics2:hover {
-    opacity: 70%!important;
-
-    animation: pulse!important;
-    animation-duration: 1s!important; /* don't forget to set a duration! */
-    cursor: pointer!important;
-}
 
 @media screen and ( min-width: 0px ) and ( max-width: 538px ) {
     .photosSetUp1 { display: none; }
