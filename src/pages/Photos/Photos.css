@@ -11,10 +11,10 @@
 }
 
 img.photosPics:hover, img.photosPics2:hover  {
-    opacity: 70%!important;
-    animation: pulse!important;
-    animation-duration: 1s!important; /* don't forget to set a duration! */
-    cursor: pointer!important;
+    opacity: .7;
+    animation: pulse;
+    animation-duration: 1s; /* don't forget to set a duration! */
+    cursor: pointer;
 }
 
 
