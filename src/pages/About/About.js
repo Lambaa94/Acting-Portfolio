@@ -11,7 +11,7 @@ function About() {
 <Container className="setUp1">
 <Row>
   <Col>
-  <Image src="images/42C2C5D6-0BD3-4E0E-AA5F-860CCB1C8E16.JPG" alt="Hannah Ryen" id="aboutPic"></Image>
+  <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/42C2C5D6-0BD3-4E0E-AA5F-860CCB1C8E16.JPG?raw=true" alt="Hannah Ryen" id="aboutPic"></Image>
   </Col>
 
     <Col>
@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, in eius dolo
 <Container className="setUp2">
 <Row>
   <Col>
-  <Image src="images/42C2C5D6-0BD3-4E0E-AA5F-860CCB1C8E16.JPG" alt="Hannah Ryen" id="aboutPic2"></Image>
+  <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/42C2C5D6-0BD3-4E0E-AA5F-860CCB1C8E16.JPG?raw=true" alt="Hannah Ryen" id="aboutPic2"></Image>
   </Col>
 </Row>
 <br/>
