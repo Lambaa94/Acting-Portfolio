@@ -30,7 +30,7 @@ function Gallery() {
 
 </Col>
 <Col>
-<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4368.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img4368.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Col>
             </Row>
@@ -81,7 +81,7 @@ function Gallery() {
 
 </Row>
 <Row>
-<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4368.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img4368.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Row>
             
