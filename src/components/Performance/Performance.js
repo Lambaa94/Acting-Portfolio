@@ -16,14 +16,14 @@ function Performance() {
         <Container>
 <Row>
     <Col>
-            <Image src="/images/img_5593.jpeg" alt="Hannah Ryen" className="performancePics"></Image>
+            <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_5593.jpeg?raw=true" alt="Hannah Ryen" className="performancePics"></Image>
     </Col>
 </Row>
 
 <br/>
 <Row>
     <Col>
-            <Image src="images/IMG_5929.JPG" alt="Hannah Ryen" className="performancePics"></Image>
+            <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/IMG_5929.JPG?raw=true" alt="Hannah Ryen" className="performancePics"></Image>
     </Col>
 
 
@@ -31,7 +31,7 @@ function Performance() {
 <br/>
 <Row>
     <Col>
-            <Image src="/images/img_5572.jpeg" alt="Hannah Ryen" className="performancePics"></Image>
+            <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_5572.jpeg?raw=true" alt="Hannah Ryen" className="performancePics"></Image>
     </Col>
 
 </Row>

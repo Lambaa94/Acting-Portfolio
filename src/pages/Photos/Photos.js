@@ -18,7 +18,7 @@ function Photos() {
                         <h1>Gallery</h1>
                         <Row>
                             <Col>
-                          <Link to="/gallery"> <Image src="/images/pexels-vitaly-vlasov-1655817.jpg" alt="Hannah Ryen" className="photosPics"></Image></Link> 
+                          <Link to="/gallery"> <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/pexels-vitaly-vlasov-1655817.jpg?raw=true" alt="Hannah Ryen" className="photosPics"></Image></Link> 
                             </Col>
                             
                         </Row>
@@ -32,7 +32,7 @@ function Photos() {
                         <h1>Performance</h1>
                         <Row>
                             <Col>
-                           <Link to="/performance"><Image src="/images/pexels-cottonbro-4722583.jpg" alt="Hannah Ryen" className="photosPics"></Image></Link> 
+                           <Link to="/performance"><Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/pexels-cottonbro-4722583.jpg?raw=true" alt="Hannah Ryen" className="photosPics"></Image></Link> 
                             </Col>
                             
                         </Row>
@@ -51,7 +51,7 @@ function Photos() {
                         <h1>Gallery</h1>
                         <Row>
                             <Col>
-                          <Link to="/gallery"> <Image src="/images/pexels-vitaly-vlasov-1655817.jpg" alt="Hannah Ryen" className="photosPics2"></Image></Link> 
+                          <Link to="/gallery"> <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/pexels-vitaly-vlasov-1655817.jpg?raw=true" alt="Hannah Ryen" className="photosPics2"></Image></Link> 
                             </Col>
                             
                         </Row>
@@ -66,7 +66,7 @@ function Photos() {
                         <h1>Performance</h1>
                         <Row>
                             <Col>
-                           <Link to="/performance"><Image src="/images/pexels-cottonbro-4722583.jpg" alt="Hannah Ryen" className="photosPics2"></Image></Link> 
+                           <Link to="/performance"><Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/pexels-cottonbro-4722583.jpg?raw=true" alt="Hannah Ryen" className="photosPics2"></Image></Link> 
                             </Col>
                             
                         </Row>
