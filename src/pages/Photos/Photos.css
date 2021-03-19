@@ -9,7 +9,15 @@
     margin: 8px;
 }
 
-.photosPics:hover, .photosPics2:hover  {
+.photosPics:hover {
+    opacity: 70%!important;
+
+    animation: pulse!important;
+    animation-duration: 1s!important; /* don't forget to set a duration! */
+    cursor: pointer!important;
+}
+
+.photosPics2:hover {
     opacity: 70%!important;
 
     animation: pulse!important;
