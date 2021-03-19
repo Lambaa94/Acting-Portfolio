@@ -26,7 +26,7 @@ function Gallery() {
 
 </Col>
 <Col>
-<Image src="/images/702AA743-1BF8-4834-9CB6-129DF0AB2406.JPG" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/702AA743-1BF8-4834-9CB6-129DF0AB2406.JPG?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Col>
 <Col>
@@ -77,7 +77,7 @@ function Gallery() {
 
 </Row>
 <Row>
-<Image src="/images/702AA743-1BF8-4834-9CB6-129DF0AB2406.JPG" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/702AA743-1BF8-4834-9CB6-129DF0AB2406.JPG?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Row>
 <Row>
