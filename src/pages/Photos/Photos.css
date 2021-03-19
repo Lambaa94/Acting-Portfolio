@@ -10,7 +10,7 @@
 }
 
 .photosPics:hover, .photosPics2:hover  {
-    opacity: 70%;
+    opacity: 10%;
 
     animation: pulse;
     animation-duration: 1s; /* don't forget to set a duration! */

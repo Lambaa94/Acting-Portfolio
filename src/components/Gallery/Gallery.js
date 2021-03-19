@@ -36,7 +36,7 @@ function Gallery() {
             </Row>
             <Row>
             <Col>
-            <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4373.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
+            <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img4373.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 </Col>
 <Col>
 <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/1FB77BAF-E59E-4BDE-979A-CDCB702D30C0.JPG?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
@@ -86,7 +86,7 @@ function Gallery() {
 </Row>
             
             <Row>
-            <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4373.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
+            <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img4373.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 </Row>
 <Row>
 <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/1FB77BAF-E59E-4BDE-979A-CDCB702D30C0.JPG?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
