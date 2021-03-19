@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Acting-Portfolio/static/css/main.3a5afb4c.chunk.css",
+    "main.css": "/Acting-Portfolio/static/css/main.3bb8a442.chunk.css",
     "main.js": "/Acting-Portfolio/static/js/main.4734d3f8.chunk.js",
     "main.js.map": "/Acting-Portfolio/static/js/main.4734d3f8.chunk.js.map",
     "runtime-main.js": "/Acting-Portfolio/static/js/runtime-main.e22d3378.js",
@@ -10,7 +10,7 @@
     "static/js/2.b1e33546.chunk.js.map": "/Acting-Portfolio/static/js/2.b1e33546.chunk.js.map",
     "index.html": "/Acting-Portfolio/index.html",
     "static/css/2.4abea776.chunk.css.map": "/Acting-Portfolio/static/css/2.4abea776.chunk.css.map",
-    "static/css/main.3a5afb4c.chunk.css.map": "/Acting-Portfolio/static/css/main.3a5afb4c.chunk.css.map",
+    "static/css/main.3bb8a442.chunk.css.map": "/Acting-Portfolio/static/css/main.3bb8a442.chunk.css.map",
     "static/js/2.b1e33546.chunk.js.LICENSE.txt": "/Acting-Portfolio/static/js/2.b1e33546.chunk.js.LICENSE.txt",
     "static/media/main.css": "/Acting-Portfolio/static/media/christina-deravedisian-we5c6QdfNCw-unsplash.5f4d4ae5.jpg"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.e22d3378.js",
     "static/css/2.4abea776.chunk.css",
     "static/js/2.b1e33546.chunk.js",
-    "static/css/main.3a5afb4c.chunk.css",
+    "static/css/main.3bb8a442.chunk.css",
     "static/js/main.4734d3f8.chunk.js"
   ]
 }
