@@ -66,7 +66,7 @@ function Contact() {
             <Container className="contactSetUp1">
                 <Row>
                     <Col>
-                        <Image src="/images/566D3108-7EF6-472E-AA0D-71E030C50339.JPG" alt="Hannah Ryen" className="contactPics"></Image>
+                        <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/566D3108-7EF6-472E-AA0D-71E030C50339.JPG?raw=true" alt="Hannah Ryen" className="contactPics"></Image>
                     </Col>
                     <Jumbotron className="contactForm">
                         <Col>
@@ -102,7 +102,7 @@ function Contact() {
             <Container className="contactSetUp2">
                 <Row>
                     <Col>
-                        <Image src="/images/566D3108-7EF6-472E-AA0D-71E030C50339.JPG" alt="Hannah Ryen" className="contactPics"></Image>
+                        <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/566D3108-7EF6-472E-AA0D-71E030C50339.JPG?raw=true" alt="Hannah Ryen" className="contactPics"></Image>
                     </Col>
                 </Row>
                 <br />

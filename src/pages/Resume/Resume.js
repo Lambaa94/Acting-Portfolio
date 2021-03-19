@@ -11,7 +11,7 @@ function Resume() {
 <Container className="setUpResume1">
 <Row>
 <Col>
-<Image src="/images/img_4379.jpeg" alt="Hannah Ryen" id="resumePic"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4379.jpeg?raw=true" alt="Hannah Ryen" id="resumePic"></Image>
 
 </Col>
 <Jumbotron id="resumeJumbo">
@@ -150,7 +150,7 @@ function Resume() {
 <Container className="setUpResume2">
 <Row>
 <Col>
-<Image src="/images/img_4379.jpeg" alt="Hannah Ryen" id="resumePic2"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4379.jpeg?raw=true" alt="Hannah Ryen" id="resumePic2"></Image>
 
 </Col>
 </Row>

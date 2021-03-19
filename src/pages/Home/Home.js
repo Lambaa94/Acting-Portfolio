@@ -15,7 +15,7 @@ function Home() {
                 <Row>
                     <Col>
                     <div>
-                        <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}></Image>
+                        <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4368.jpeg?raw=true" alt="Hannah Ryen" id="homePic" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}></Image>
                     </div>
                     </Col>
                     <Col >
@@ -56,7 +56,7 @@ function Home() {
                     
                     
                     <Col>
-                    <Image src="/images/img_4368.jpeg" alt="Hannah Ryen" id="homePic2" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}></Image>
+                    <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4368.jpeg?raw=true" alt="Hannah Ryen" id="homePic2" style={{ boxShadow: "rgb(227, 219, 219) 0px 2px 2px 2px"}}></Image>
                     </Col>
                     
                     </Row>
