@@ -22,7 +22,7 @@ function Gallery() {
             <Row>
 <Col>
 
-<Image src="/images/img_4358.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4358.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Col>
 <Col>
@@ -30,19 +30,19 @@ function Gallery() {
 
 </Col>
 <Col>
-<Image src="/images/img_4368.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4368.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Col>
             </Row>
             <Row>
             <Col>
-            <Image src="/images/img_4373.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
+            <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4373.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 </Col>
 <Col>
-<Image src="/images/1FB77BAF-E59E-4BDE-979A-CDCB702D30C0.JPG" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/1FB77BAF-E59E-4BDE-979A-CDCB702D30C0.JPG?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 </Col>
 <Col>
-<Image src="/images/img_4379.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4379.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Col>
 
@@ -52,7 +52,7 @@ function Gallery() {
             
 </Col>
 <Col>
-<Image src="/images/A8DB8D68-A494-4001-ACE6-113FE22400D1.JPG" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/A8DB8D68-A494-4001-ACE6-113FE22400D1.JPG?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 </Col>
 <Col>
 
@@ -73,7 +73,7 @@ function Gallery() {
             <Row>
 
 
-<Image src="/images/img_4358.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4358.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Row>
 <Row>
@@ -81,18 +81,18 @@ function Gallery() {
 
 </Row>
 <Row>
-<Image src="/images/img_4368.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4368.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Row>
             
             <Row>
-            <Image src="/images/img_4373.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
+            <Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4373.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 </Row>
 <Row>
-<Image src="/images/1FB77BAF-E59E-4BDE-979A-CDCB702D30C0.JPG" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/1FB77BAF-E59E-4BDE-979A-CDCB702D30C0.JPG?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 </Row>
 <Row>
-<Image src="/images/img_4379.jpeg" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/img_4379.jpeg?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 
 </Row>
 
@@ -101,7 +101,7 @@ function Gallery() {
             
 </Row>
 <Row>
-<Image src="/images/A8DB8D68-A494-4001-ACE6-113FE22400D1.JPG" alt="Hannah Ryen" className="galleryPics"></Image>
+<Image src="https://github.com/Lambaa94/Acting-Portfolio/blob/main/public/images/A8DB8D68-A494-4001-ACE6-113FE22400D1.JPG?raw=true" alt="Hannah Ryen" className="galleryPics"></Image>
 </Row>
 <Row>
 
