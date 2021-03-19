@@ -10,11 +10,11 @@
 }
 
 .photosPics:hover, .photosPics2:hover  {
-    opacity: 10%;
+    opacity: 70%!important;
 
-    animation: pulse;
-    animation-duration: 1s; /* don't forget to set a duration! */
-    cursor: pointer;
+    animation: pulse!important;
+    animation-duration: 1s!important; /* don't forget to set a duration! */
+    cursor: pointer!important;
 }
 
 @media screen and ( min-width: 0px ) and ( max-width: 538px ) {
