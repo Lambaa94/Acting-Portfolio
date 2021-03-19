@@ -1,22 +1,21 @@
-.photosPics:hover, .photosPics2:hover  {
-    opacity: 70%!important;
-
-    animation: pulse!important;
-    animation-duration: 1s!important; /* don't forget to set a duration! */
-    cursor: pointer!important;
-}
 
 .photoTitle, .photoTitle2 {
     text-align: center;
     color: rgba(255, 217, 0, 0.767);
 }
 
-.photosPics, .photosPics2{
+.photosPics, .photosPics2 {
    
     border-radius: 8px;
     margin: 8px;
 }
 
+.photosPics:hover, .photosPics2:hover  {
+    opacity: 70%!important;
+    animation: pulse!important;
+    animation-duration: 1s!important; /* don't forget to set a duration! */
+    cursor: pointer!important;
+}
 
 
 @media screen and ( min-width: 0px ) and ( max-width: 538px ) {
